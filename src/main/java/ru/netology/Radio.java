@@ -64,10 +64,11 @@ public class Radio {
 
     public void increaseVolume() {
         this.volume++;
-       // if (volume > maxVolume) {
+        if (volume > maxVolume) {
             this.volume = maxVolume;
         }
 
+    }
 
     public void decreaseVolume() {
         this.volume--;
@@ -77,5 +78,3 @@ public class Radio {
         }
     }
 }
-
-

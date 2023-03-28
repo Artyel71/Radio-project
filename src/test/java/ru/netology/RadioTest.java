@@ -120,10 +120,10 @@ class RadioTest {
     @Test
     void shouldIncreaseVolume() {
         Radio radio = new Radio(10, 10, 100, 100);
-        int volume = 101;
+        int volume = 59;
         radio.setVolume(volume);
         radio.increaseVolume();
-        int expected = 100;
+        int expected = 60;
         Assertions.assertEquals(expected, radio.getVolume());
     }
 
